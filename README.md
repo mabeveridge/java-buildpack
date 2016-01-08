@@ -7,19 +7,18 @@
 The `java-buildpack` is a [Cloud Foundry][] buildpack for running JVM-based applications.  It is designed to run many JVM-based applications ([Grails][], [Groovy][], Java Main, [Play Framework][], [Spring Boot][], and Servlet) with no additional configuration, but supports configuration of the standard components, and extension to add custom components.
 
 ## Note
-```
 This fork of the buildpack uses fixed versions of certain components in order to ensure consistent 
 environents across deployments (to avoid problems like https://github.com/aws/aws-sdk-java/issues/484). 
 
 The pinned components and versions are:
 
-OpenJDK JRE: 1.8.0_65
-Postgres JDBC Driver: 9.4.1207
-Tomcat: 8.0.30
-Tomcat Lifecycle Support: 2.4.0_RELEASE
-Tomcat Logging Support: 2.4.0_RELEASE
-Tomcat Access Logging Support: 2.4.0_RELEASE
-```
+* OpenJDK JRE: 1.8.0_65
+* Postgres JDBC Driver: 9.4.1207
+* Tomcat: 8.0.30
+* Tomcat Lifecycle Support: 2.4.0_RELEASE
+* Tomcat Logging Support: 2.4.0_RELEASE
+* Tomcat Access Logging Support: 2.4.0_RELEASE
+
 
 ## Usage
 To use this buildpack specify the URI of the repository when pushing an application to Cloud Foundry:
