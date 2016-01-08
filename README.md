@@ -7,7 +7,7 @@
 The `java-buildpack` is a [Cloud Foundry][] buildpack for running JVM-based applications.  It is designed to run many JVM-based applications ([Grails][], [Groovy][], Java Main, [Play Framework][], [Spring Boot][], and Servlet) with no additional configuration, but supports configuration of the standard components, and extension to add custom components.
 
 ```
-This fork of the buildpack uses fixed versions of certain components in order to ensure consistent environents across deployments (e.g. to avoid problems like [https://github.com/aws/aws-sdk-java/issues/484](https://github.com/aws/aws-sdk-java/issues/484)). 
+This fork of the buildpack uses fixed versions of certain components in order to ensure consistent environents across deployments (e.g. to avoid problems like https://github.com/aws/aws-sdk-java/issues/484). 
 
 The pinned components and versions are:
 
