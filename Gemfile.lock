@@ -54,6 +54,8 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
+  x86-mingw32
 
 DEPENDENCIES
   codeclimate-test-reporter
@@ -67,3 +69,6 @@ DEPENDENCIES
   tee
   webmock
   yard
+
+BUNDLED WITH
+   1.10.6

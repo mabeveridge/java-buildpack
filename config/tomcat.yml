@@ -16,16 +16,16 @@
 # Configuration for the Tomcat container
 ---
 tomcat:
-  version: 8.0.+
+  version: 8.0.30
   repository_root: "{default.repository.root}/tomcat"
 lifecycle_support:
-  version: 2.+
+  version: 2.4.0_RELEASE
   repository_root: "{default.repository.root}/tomcat-lifecycle-support"
 logging_support:
-  version: 2.+
+  version: 2.4.0_RELEASE
   repository_root: "{default.repository.root}/tomcat-logging-support"
 access_logging_support:
-  version: 2.+
+  version: 2.4.0_RELEASE
   repository_root: "{default.repository.root}/tomcat-access-logging-support"
   access_logging: disabled
 redis_store:
