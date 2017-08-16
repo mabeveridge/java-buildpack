@@ -13,7 +13,7 @@ The pinned components and versions are:
 
 * OpenJDK JRE: 1.8.0_65
 * Postgres JDBC Driver: 9.4.1207
-* Tomcat: 8.0.30
+* Tomcat: 8.0.45 (earlier versions have a native memory leak)
 * Tomcat Lifecycle Support: 2.4.0_RELEASE
 * Tomcat Logging Support: 2.4.0_RELEASE
 * Tomcat Access Logging Support: 2.4.0_RELEASE
